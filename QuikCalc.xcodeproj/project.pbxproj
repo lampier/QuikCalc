@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF07DD981A8CD3E700191935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF07DD971A8CD3E700191935 /* AppDelegate.swift */; };
+		FF07DD9A1A8CD3E700191935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF07DD991A8CD3E700191935 /* ViewController.swift */; };
+		FF07DD9D1A8CD3E700191935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF07DD9B1A8CD3E700191935 /* Main.storyboard */; };
+		FF07DD9F1A8CD3E700191935 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF07DD9E1A8CD3E700191935 /* Images.xcassets */; };
+		FF07DDA21A8CD3E700191935 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF07DDA01A8CD3E700191935 /* LaunchScreen.xib */; };
+		FF07DDAE1A8CD3E800191935 /* QuikCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF07DDAD1A8CD3E800191935 /* QuikCalcTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF07DDA81A8CD3E800191935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF07DD8A1A8CD3E700191935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF07DD911A8CD3E700191935;
+			remoteInfo = QuikCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF07DD921A8CD3E700191935 /* QuikCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuikCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF07DD961A8CD3E700191935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF07DD971A8CD3E700191935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF07DD991A8CD3E700191935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF07DD9C1A8CD3E700191935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF07DD9E1A8CD3E700191935 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF07DDA11A8CD3E700191935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF07DDA71A8CD3E800191935 /* QuikCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuikCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF07DDAC1A8CD3E800191935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF07DDAD1A8CD3E800191935 /* QuikCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuikCalcTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF07DD8F1A8CD3E700191935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF07DDA41A8CD3E800191935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF07DD891A8CD3E700191935 = {
+			isa = PBXGroup;
+			children = (
+				FF07DD941A8CD3E700191935 /* QuikCalc */,
+				FF07DDAA1A8CD3E800191935 /* QuikCalcTests */,
+				FF07DD931A8CD3E700191935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF07DD931A8CD3E700191935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF07DD921A8CD3E700191935 /* QuikCalc.app */,
+				FF07DDA71A8CD3E800191935 /* QuikCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF07DD941A8CD3E700191935 /* QuikCalc */ = {
+			isa = PBXGroup;
+			children = (
+				FF07DD971A8CD3E700191935 /* AppDelegate.swift */,
+				FF07DD991A8CD3E700191935 /* ViewController.swift */,
+				FF07DD9B1A8CD3E700191935 /* Main.storyboard */,
+				FF07DD9E1A8CD3E700191935 /* Images.xcassets */,
+				FF07DDA01A8CD3E700191935 /* LaunchScreen.xib */,
+				FF07DD951A8CD3E700191935 /* Supporting Files */,
+			);
+			path = QuikCalc;
+			sourceTree = "<group>";
+		};
+		FF07DD951A8CD3E700191935 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF07DD961A8CD3E700191935 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF07DDAA1A8CD3E800191935 /* QuikCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF07DDAD1A8CD3E800191935 /* QuikCalcTests.swift */,
+				FF07DDAB1A8CD3E800191935 /* Supporting Files */,
+			);
+			path = QuikCalcTests;
+			sourceTree = "<group>";
+		};
+		FF07DDAB1A8CD3E800191935 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF07DDAC1A8CD3E800191935 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF07DD911A8CD3E700191935 /* QuikCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF07DDB11A8CD3E800191935 /* Build configuration list for PBXNativeTarget "QuikCalc" */;
+			buildPhases = (
+				FF07DD8E1A8CD3E700191935 /* Sources */,
+				FF07DD8F1A8CD3E700191935 /* Frameworks */,
+				FF07DD901A8CD3E700191935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuikCalc;
+			productName = QuikCalc;
+			productReference = FF07DD921A8CD3E700191935 /* QuikCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF07DDA61A8CD3E800191935 /* QuikCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF07DDB41A8CD3E800191935 /* Build configuration list for PBXNativeTarget "QuikCalcTests" */;
+			buildPhases = (
+				FF07DDA31A8CD3E800191935 /* Sources */,
+				FF07DDA41A8CD3E800191935 /* Frameworks */,
+				FF07DDA51A8CD3E800191935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF07DDA91A8CD3E800191935 /* PBXTargetDependency */,
+			);
+			name = QuikCalcTests;
+			productName = QuikCalcTests;
+			productReference = FF07DDA71A8CD3E800191935 /* QuikCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF07DD8A1A8CD3E700191935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = WIT;
+				TargetAttributes = {
+					FF07DD911A8CD3E700191935 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FF07DDA61A8CD3E800191935 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FF07DD911A8CD3E700191935;
+					};
+				};
+			};
+			buildConfigurationList = FF07DD8D1A8CD3E700191935 /* Build configuration list for PBXProject "QuikCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF07DD891A8CD3E700191935;
+			productRefGroup = FF07DD931A8CD3E700191935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF07DD911A8CD3E700191935 /* QuikCalc */,
+				FF07DDA61A8CD3E800191935 /* QuikCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF07DD901A8CD3E700191935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF07DD9D1A8CD3E700191935 /* Main.storyboard in Resources */,
+				FF07DDA21A8CD3E700191935 /* LaunchScreen.xib in Resources */,
+				FF07DD9F1A8CD3E700191935 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF07DDA51A8CD3E800191935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF07DD8E1A8CD3E700191935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF07DD9A1A8CD3E700191935 /* ViewController.swift in Sources */,
+				FF07DD981A8CD3E700191935 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF07DDA31A8CD3E800191935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF07DDAE1A8CD3E800191935 /* QuikCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF07DDA91A8CD3E800191935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF07DD911A8CD3E700191935 /* QuikCalc */;
+			targetProxy = FF07DDA81A8CD3E800191935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF07DD9B1A8CD3E700191935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF07DD9C1A8CD3E700191935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF07DDA01A8CD3E700191935 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF07DDA11A8CD3E700191935 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF07DDAF1A8CD3E800191935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF07DDB01A8CD3E800191935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF07DDB21A8CD3E800191935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuikCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF07DDB31A8CD3E800191935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuikCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF07DDB51A8CD3E800191935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuikCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuikCalc.app/QuikCalc";
+			};
+			name = Debug;
+		};
+		FF07DDB61A8CD3E800191935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuikCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuikCalc.app/QuikCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF07DD8D1A8CD3E700191935 /* Build configuration list for PBXProject "QuikCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF07DDAF1A8CD3E800191935 /* Debug */,
+				FF07DDB01A8CD3E800191935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF07DDB11A8CD3E800191935 /* Build configuration list for PBXNativeTarget "QuikCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF07DDB21A8CD3E800191935 /* Debug */,
+				FF07DDB31A8CD3E800191935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF07DDB41A8CD3E800191935 /* Build configuration list for PBXNativeTarget "QuikCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF07DDB51A8CD3E800191935 /* Debug */,
+				FF07DDB61A8CD3E800191935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF07DD8A1A8CD3E700191935 /* Project object */;
+}
