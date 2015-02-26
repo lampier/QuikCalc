@@ -38,11 +38,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QuikCalc/ViewController.swift"
-            timestampString = "446659912.867497"
+            timestampString = "446677353.989076"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
             landmarkName = "pressOperator(_:)"
             landmarkType = "5">
             <Locations>
