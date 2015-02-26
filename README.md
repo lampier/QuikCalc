@@ -6,3 +6,7 @@ Initial set up on GitHub. Functionality missing - known issues:
   1. AutoLayout problems
   2. Calculation methods don't work
   3. No icons set
+
+26/02/2015
+    1.Calculations working
+    2.Icons set

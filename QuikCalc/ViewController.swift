@@ -30,13 +30,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var displayLabel: UILabel!
     // or should it be done in InterfaceBuilder?
     
-    var currentTotal:Int = 0;
+    var currentTotal:Double = 0.0;
     var oper:String?
-    
+    //var calc = Calculator()
+    var num1:Double = 0.0
+    var num2:Double = 0.0
+    var aux:Double = 0.0
+    var flag:Bool = false
+    var equalsPressed: Bool = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        displayLabel.text = "\(currentTotal)"
+        displayLabel.text = ""
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,13 +60,19 @@ class ViewController: UIViewController {
     @IBAction func pressNumber(sender: AnyObject) {
         
         if let digit = (sender as UIButton).titleLabel?.text {
-            if(displayLabel.text! != "0"){
+            if(displayLabel.text! != "0.0"){
                 displayLabel.text! += digit
+                if(displayLabel.text! == "."){
+                    displayLabel.text! += "."
+                }
+                aux = (displayLabel.text! as NSString).doubleValue
             }
             else{
                 displayLabel.text = digit
+                aux = (displayLabel.text! as NSString).doubleValue
             }
         }
+     
     }
     
     /*
@@ -69,8 +81,16 @@ class ViewController: UIViewController {
         Is this it?
     */
     @IBAction func pressOperator(sender: AnyObject) {
-        let o:String! = (sender as UIButton).titleLabel?.text
-        
+        if (num1==0.0 && num2 == 0.0 && flag){
+            num1 = currentTotal
+        }else{
+            num1 = aux
+        }
+        displayLabel.text="";
+        var o:String! = (sender as UIButton).titleLabel?.text
+        if o == "MOD" {
+            o = "%"
+        }
         switch(o){
             case "+":
                 // add operation
@@ -84,6 +104,8 @@ class ViewController: UIViewController {
             case "/":
                 // divide operation
                 oper = "/"
+            case "%":
+                oper = "%"
         default:
             oper = nil
         }
@@ -94,7 +116,45 @@ class ViewController: UIViewController {
     */
     @IBAction func equalsOp (sender: AnyObject) {
         
-        displayLabel.text = "\(currentTotal)"
+        num2 = aux
+        println(NSString(format:"%f",num1))
+        println(NSString(format:"%f",num2))
+        println(NSString(format:"%f",currentTotal))
+        println(oper!)
+        
+        
+        let calc = Calculator()
+        
+        if let o:String = oper{
+            
+            switch(o){
+            case "+":
+                // add operation
+                displayLabel.text = calc.add(num1,num2: num2).description
+            case "-":
+                // subtract operation
+                displayLabel.text = calc.sub(num1,num2: num2).description
+            case "x":
+                // multiply operation
+                displayLabel.text = calc.mul(num1,num2: num2).description
+            case "/":
+                // divide operation
+                displayLabel.text = calc.div(num1,num2: num2).description
+            case "%":
+                displayLabel.text = calc.mod(Int(floor(num1)),b: Int(floor(num2))).description
+            default:
+                oper = nil
+            }
+
+        }
+        flag = true
+        num1=0.0
+        num2=0.0
+        currentTotal = (displayLabel.text! as NSString).doubleValue
+        
+        
+        
+        //displayLabel.text = "\(currentTotal)"
     }
     
     /*
@@ -103,7 +163,7 @@ class ViewController: UIViewController {
     @IBAction func clearOp (sender: AnyObject) {
         currentTotal = 0
         oper = nil
-        
+        flag = false
         displayLabel.text = "\(currentTotal)"
     }
     
